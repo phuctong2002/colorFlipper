@@ -1,0 +1,81 @@
+.nav-center{
+    display: grid;
+    height: 48px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    text-align: center;
+    font-size: 1rem;
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+h4{
+    color: hsl(205, 78% ,60%);
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family:'Roboto', sans-serif;
+    letter-spacing: 0.25rem;
+    font-weight: bold;
+    margin-top: auto ;
+    margin-bottom: auto;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    font-family: "Open sans", sans-serif;
+}
+li{
+    list-style: none;
+    margin-right: 16px;
+}
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-right: 1rem;
+    color: hsl(205, 86% ,17%);
+    cursor: pointer;
+}
+main{
+    background-color:hsl(206, 33%, 96%);
+    min-height: calc(100vh - 48px);
+    color: hsl(209, 61% ,16%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+/* .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+h2{
+    margin-bottom: 2.5rem;
+    border-radius: 0.5rem;
+    background-color: #222;
+    color: #fff;
+    font-size: 2.5rem;
+    padding: 16px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: capitalize;
+}
+.btn-hero{
+    font-size: 1rem;
+    padding: 0.75rem 1.25rem;
+    text-transform: uppercase;
+    color: #222;
+    letter-spacing: 0.25rem;
+    font-weight: 700;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px rgb( 0 0 0 /10%);
+}
+.btn-hero:hover{
+    background-color: #222;
+    color: white;
+}
+span{
+    text-transform: uppercase;
+}
